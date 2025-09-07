@@ -1,93 +1,69 @@
-# Loan Default Prediction – Lending Club Dataset
-<h2> 📌 Project Overview </h2>
+# Loan Default Prediction – Lending Club Dataset  
 
-This project focuses on predicting loan defaults using the Lending Club dataset from Kaggle, which contains 200,000+ rows and 150+ features.
-The goal was to build a machine learning pipeline that performs data cleaning, feature engineering, exploratory data analysis (EDA), and model training, followed by creating an interactive dashboard in Power BI for business insights.
+## 📌 Project Overview  
 
-<h2>🔧 Key Steps</h2>
-<h3>1. Data Preprocessing</h3>
-<ul>
-<li></li>Handled missing values through imputation.
+This project focuses on predicting **loan defaults** using the **Lending Club dataset** from Kaggle, which contains **200,000+ rows** and **150+ features**.  
+The goal was to perform **data cleaning, feature engineering, exploratory data analysis (EDA), and model training**, followed by creating an **interactive dashboard in Power BI** for business insights.  
 
-<li>Removed redundant/irrelevant features.
+---
 
-<li>Addressed multicollinearity among variables.
+## 🔧 Key Steps  
 
-<li>Applied feature engineering to create meaningful variables.
-</ul>
+### 1. Data Preprocessing  
+- Handled missing values through imputation.  
+- Removed redundant/irrelevant features.  
+- Addressed multicollinearity among variables.  
+- Applied feature engineering to create meaningful variables.  
 
-<h3>2. Exploratory Data Analysis (EDA)</h3>
-<ul>
+### 2. Exploratory Data Analysis (EDA)  
+- Visualized distributions, correlations, and outliers.  
+- Identified key risk factors influencing loan default.  
+- Summarized trends using graphs and pivot tables.  
 
-<li>Visualized distributions, correlations, and outliers.
+### 3. Machine Learning Models  
+Implemented and compared multiple models:  
+- Logistic Regression (LR)  
+- Decision Tree (DT)  
+- Random Forest (RF)  
+- XGBoost (XGB)  
 
-<li>Identified key risk factors influencing loan default.
+📊 **Achieved 99% accuracy on the test set.**  
 
-<li>Summarized trends using graphs and pivot tables.
-</ul>
+### 4. Dashboard – Power BI  
+- Created an interactive dashboard to visualize loan data.  
+- Included borrower profiles, loan performance trends, default risk factors, and key KPIs.  
+- Made results accessible to business users for decision-making.  
 
-<h3>3. Machine Learning Models</h3>
-<ul>
+---
 
-<h4>Implemented and compared multiple models:</h4>
+## 🚀 Results & Insights  
+- Logistic Regression outperformed the other models.  
+- Top risk factors for default: interest rate, annual income, loan grade, debt-to-income ratio.  
+- Business-friendly dashboard for monitoring loan performance and defaults.  
 
-<li>Logistic Regression (LR)
+---
 
-<li>Decision Tree (DT)
+## 📊 Tools & Technologies  
+- **Python**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn  
+- **Power BI**: Dashboard creation & reporting  
+- **Jupyter Notebook**: EDA & experimentation  
 
-<li>Random Forest (RF)
+---
 
-<li>XGBoost (XGB)
-</ul>
+## 📈 Future Work  
+- Hyperparameter tuning with cross-validation.  
+- Model deployment (Flask/Streamlit).  
+- Integrating real-time data pipelines.  
 
-<h4>📊 Achieved 99% accuracy on the test set.</h4>
+---
 
-<h3>4. Dashboard – Power BI</h3>
-<ul>
-<li>Created an interactive dashboard to visualize loan data.
-
-<li>Included borrower profiles, loan performance trends, default risk factors, and key KPIs.
-
-<li>Made results accessible to business users for decision-making.
-</ul>
-
-<h2>🚀 Results & Insights</h2>
-<ul>
-<li>Logistic Regression outperformed the other models.
-
-<li>Top risk factors for default: interest rate, annual income, loan grade, debt-to-income ratio.
-
-<li>Business-friendly dashboard for monitoring loan performance and defaults.
-</ul>
-
-<h2>📊 Tools & Technologies</h2>
-<ul>
-
-<li><b>Python:</b> Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
-
-<li><b>Power BI:</b> Dashboard creation & reporting
-
-<li><b>Jupyter Notebook:</b> EDA & experimentation
-</ul>
-
-<h2>📈 Future Work</h2>
-<ul>
-
-<li>Hyperparameter tuning with cross-validation.
-
-<li>Model deployment (Flask/Streamlit).
-
-<li>Integrating real-time data pipelines.
-</ul>
-
-
-<h2>📖 References</h2>
-
+## 📖 References  
 - [Lending Club Dataset – Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club/discussion?sort=hotness)  
 - [Scikit-learn Documentation](https://scikit-learn.org/stable)  
 - [XGBoost Documentation](https://xgboost.readthedocs.io)  
-- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi)
-  
-<h2>📬 Contact</h2>
+- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi)  
 
-🐙 [GitHub](https://github.com/varssha22) 
+---
+
+## 📬 Contact  
+🐙 [GitHub](https://github.com/varssha22)  
