@@ -51,17 +51,6 @@ The goal was to build a machine learning pipeline that performs data cleaning, f
 <li>Made results accessible to business users for decision-making.
 </ul>
 
-<h2>📂 Project Structure</h2>
-
-```
-├── data/                  # Dataset (not uploaded due to size/Kaggle policy)
-├── notebooks/             # Jupyter notebooks for EDA, preprocessing, and modeling
-├── scripts/               # Python scripts for pipeline automation
-├── dashboard/             # Power BI file (.pbix)
-├── results/               # Model results, plots, metrics
-├── README.md              # Project documentation
-```
-
 <h2>🚀 Results & Insights</h2>
 <ul>
 <li>Logistic Regression outperformed the other models.
