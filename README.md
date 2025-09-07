@@ -38,7 +38,12 @@ Implemented and compared multiple models:
 
 ## 🚀 Results & Insights  
 - XgBoost outperformed the other models with 99.85% Average CV score (Recall) and 100% Accuracy.  
-- Top risk factors for default: interest rate, annual income, loan grade, debt-to-income ratio.  
+- Top risk factors (According to weights given by Logistic Regression):
+                  - **recoveries** → Amount recovered after the loan was charged-off.  
+                  - **total_pymnt** → The total payment (principal + interest + fees) received for the loan.  
+                  - **loan_amnt** → The total amount of money the borrower originally applied for.  
+                  - **out_prncp** → Outstanding principal (remaining unpaid loan balance).  
+                  - **total_rec_int** → Total interest received to date.  
 - Business-friendly dashboard for monitoring loan performance and defaults.  
 
 ---
