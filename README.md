@@ -37,7 +37,7 @@ Implemented and compared multiple models:
 ---
 
 ## 🚀 Results & Insights  
-- Logistic Regression outperformed the other models.  
+- XgBoost outperformed the other models with 99.85% Average CV score (Recall) and 100% Accuracy.  
 - Top risk factors for default: interest rate, annual income, loan grade, debt-to-income ratio.  
 - Business-friendly dashboard for monitoring loan performance and defaults.  
 
